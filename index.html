@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Safari Hunt Timer</title>
+    <link rel="stylesheet" href="indexStyle.css">
+  </head>
+  <body>
+    <h1 id="task">Team A: shoot!</h1>
+    <div ID="main_timer">
+        <div id="timer">
+          00:20
+        </div>
+      </div>
+    <div class="buttonContainer">
+      <button type="button" id="start" onclick="shoot(this), start(this)">start</button>
+      <button type="button" id="pauseButton" onclick="pause(this)" style="display:none">pause</button>
+      <button type="button" id="resumeButton" onclick="resume(this)" style="display:none">resume</button>
+    </div>
+
+    <!-- ////////////////////////////////////// -->
+    <script src = "timer.js"> </script>
+  </body>
+</html>

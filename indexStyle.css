@@ -1,0 +1,58 @@
+body {
+  background: Grey;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: grid;
+  grid-template-rows: 25vh 50vh 25vh;
+  background-image: url('safari background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+* {
+  font-family: Arial;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ffffff87;
+}
+
+#task {
+  font-size: 7.5vw;
+  text-align: center;
+  grid-row-start: 1;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+#main_timer {
+  grid-row-start: 2;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#timer {
+  font-size: 40vmin;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  grid-row-start: 3;
+}
+
+button {
+  cursor: pointer;
+  font-style: normal;
+  font-size: 6vh;
+  color: black;
+  background-color: rgba(255,255,255,0.8);
+  border-color: transparent;
+  border-radius: 10px;
+  margin-bottom: auto;
+}
